@@ -1,0 +1,23 @@
+{
+  "CONTRACT_ADDRESS": "0x0b0150e71fd3e549d2ad4514be7a0ad13d0b4cc6",
+  "SCAN_LINK": "https://polygonscan.com/address/0x0b0150e71fd3e549d2ad4514be7a0ad13d0b4cc6",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Barcode Minter",
+  "SYMBOL": "BAR",
+  "MAX_SUPPLY": 4000000,
+  "WEI_COST": 1000000000000000000,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/barcodenft",
+  "Twitter_LINK": "https://twitter.com/QRCODE_MINT",
+  "SHOW_BACKGROUND": true,
+  "NAME_BARCODE":"",
+  "COUNT_LOGO":"None",
+  "COLOR_BARCODE":"#000000",
+  "BORDER_BARCODE":"None"
+}
