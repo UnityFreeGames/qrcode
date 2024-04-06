@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<options>
+		<colors>
+			<text>#fff</text>
+			<background></background>
+		</colors>
+		<loader>assets/easter/loader.png</loader>
+		<music audio="">false</music>
+		<background_image>assets/easter/bg.png</background_image>
+		<background_dim_image>assets/easter/item_dim.png</background_dim_image>
+		<ballRotate>true</ballRotate>
+		<ballRotateSpeed>100</ballRotateSpeed>
+		<ballRadius>60</ballRadius>
+		<toneSize>10</toneSize>
+		<toneIdleAlpha>.3</toneIdleAlpha>
+		<idleStrokeSize>20</idleStrokeSize>
+		<idleStrokeColor1>#070316</idleStrokeColor1>
+		<idleStrokeColor2>#150933</idleStrokeColor2>
+		<autoplay>false</autoplay>
+		<fullscreen>true</fullscreen>
+		<responsive>
+			<size width="600" height="600">.7</size>
+			<size width="500" height="500">.6</size>
+			<size width="400" height="400">.5</size>
+		</responsive>
+	</options>
+
+	<balls>
+		<item glow="assets/easter/item_ball1_glow.png">assets/easter/item_ball1.png</item>
+		<item glow="assets/easter/item_ball2_glow.png">assets/easter/item_ball2.png</item>
+		<item glow="assets/easter/item_ball3_glow.png">assets/easter/item_ball3.png</item>
+		<item glow="assets/easter/item_ball4_glow.png">assets/easter/item_ball4.png</item>
+		<item glow="assets/easter/item_ball5_glow.png">assets/easter/item_ball5.png</item>
+		<item glow="assets/easter/item_ball6_glow.png">assets/easter/item_ball6.png</item>
+		<item glow="assets/easter/item_ball7_glow.png">assets/easter/item_ball7.png</item>
+	</balls>
+
+	<tones>
+		<item glow="assets/easter/item_tone_01_glow.png">assets/easter/item_tone_01.png</item>
+		<item glow="assets/easter/item_tone_02_glow.png">assets/easter/item_tone_02.png</item>
+		<item glow="assets/easter/item_tone_03_glow.png">assets/easter/item_tone_03.png</item>
+		<item glow="assets/easter/item_tone_04_glow.png">assets/easter/item_tone_04.png</item>
+		<item glow="assets/easter/item_tone_05_glow.png">assets/easter/item_tone_05.png</item>
+	</tones>
+
+	<objects>
+		<item type="image" id="buttonStart" x="0" y="150" link="play" linkType="action">assets/easter/button_play.png</item>
+		<item type="image" id="itemObject1" x="0" y="-220">assets/easter/item_object1.png</item>
+		<item type="image" id="itemObject3" x="50" y="800">assets/easter/item_object3.png</item>
+		<item type="image" id="itemObject4" x="0" y="3100">assets/easter/item_object4.png</item>
+		<item type="image" id="itemObject5" x="-1200" y="1100">assets/easter/item_object5.png</item>
+		<item type="image" id="itemObject6" x="-50" y="4300">assets/easter/item_object6.png</item>
+		<item type="image" id="itemObject8" x="100" y="1500">assets/easter/item_object8.png</item>
+		<item type="image" id="itemObject9" x="-1000" y="2800">assets/easter/item_object9.png</item>
+		<item type="image" id="itemObject10" x="-800" y="500">assets/easter/item_object10.png</item>
+		<item type="image" id="itemObject12" x="300" y="2200">assets/easter/item_object12.png</item>
+		<item type="image" id="itemObject11" x="-100" y="3800">assets/easter/item_object11.png</item>
+		<item type="image" id="itemObject13" x="-450" y="5400">assets/easter/item_object13.png</item>
+		<item type="image" id="itemObject14" x="-1000" y="4100">assets/easter/item_object14.png</item>
+		<item type="image" id="itemObject15" x="200" y="4980">assets/easter/item_object15.png</item>
+		<item type="image" id="itemObject2" x="1055" y="5770">assets/easter/item_object2.png</item>
+		<item type="text" id="itemMessage" x="1055" y="5900" font="25px Fredoka One" lineHeight="32" color="#FFF" align="center">
+		<![CDATA[
+Pepemigos Free Mint | Polygon,
+Mint opens: 3pm UTC (April 10 2024). 
+]]>
+		</item>
+		<item type="text" id="itemMessage" x="1010" y="6280" font="18px Fredoka One" lineHeight="0" color="#FFAD73" align="center">
+		<![CDATA[
+Twitter
+]]>
+		</item>
+		<item type="image" id="buttonCompany" x="1010" y="6280" link="https://twitter.com/missing_studios" linkType="link">assets/easter/button_blank.png</item>
+		<item type="image" id="buttonReplay" x="1170" y="6280" link="replay" linkType="action">assets/easter/button_replay.png</item>
+	</objects>
+
+	<audio>
+		<item>assets/sound_do.ogg</item>
+		<item>assets/sound_re.ogg</item>
+		<item>assets/sound_mi.ogg</item>
+		<item>assets/sound_fa.ogg</item>
+		<item>assets/sound_sol.ogg</item>
+		<item>assets/sound_la.ogg</item>
+		<item>assets/sound_si.ogg</item>
+		<item>assets/sound_do2.ogg</item>
+	</audio>
+
+	<cuepoints>
+		<position tone="2" audio="2" curve="0" rotation="0" side="false" dir="true">1000</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">1100</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">1600</position>
+		<position tone="1" audio="1" curve=".1" rotation="0" side="false" dir="true">1800</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">1900</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">2500</position>
+		<position tone="0" audio="0" curve=".1" rotation="0" side="false" dir="true">2700</position>
+
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="true" dir="true">2800</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="true" dir="true">4000</position>
+
+		<position tone="4" audio="2" curve=".1" rotation="0" side="true" dir="true">4200</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">4300</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">4800</position>
+		<position tone="3" audio="1" curve=".1" rotation="0" side="false" dir="true">5000</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">5100</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">5600</position>
+		<position tone="2" audio="0" curve="0" rotation="0" side="false" dir="true">5800</position>
+
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="true" dir="true">5900</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="true" dir="true">7200</position>
+
+		<position tone="0" audio="0" curve=".2" rotation="60" side="true" dir="true" extend="100">7400</position>
+		<position tone="0" audio="0" curve=".2" rotation="-60" side="true" dir="true">7800</position>
+		<position tone="0" audio="0" curve=".2" rotation="60" side="false" dir="true">8200</position>
+		<position tone="0" audio="0" curve=".2" rotation="-60" side="true" dir="true">8600</position>
+
+		<position tone="1" audio="1" curve=".2" rotation="60" side="false" dir="true">9000</position>
+		<position tone="1" audio="1" curve=".2" rotation="-60" side="true" dir="true">9400</position>
+		<position tone="1" audio="1" curve=".2" rotation="60" side="false" dir="true">9800</position>
+		<position tone="1" audio="1" curve=".2" rotation="-60" side="true" dir="true">10200</position>
+
+		<position tone="2" audio="2" curve=".2" rotation="0" side="false" dir="true">10600</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">10700</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">11200</position>
+		<position tone="1" audio="1" curve=".2" rotation="0" side="false" dir="true">11400</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">11500</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">12000</position>
+		<position tone="0" audio="0" curve=".2" rotation="0" side="false" dir="true">12200</position>
+
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="true" dir="true">12300</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="true" dir="true">13600</position>
+
+
+		<position tone="2" audio="2" curve=".2" rotation="0" side="true" dir="true">13800</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">13900</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">14400</position>
+		<position tone="1" audio="1" curve=".2" rotation="0" side="false" dir="true">14600</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">14700</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">15200</position>
+		<position tone="0" audio="0" curve=".2" rotation="0" side="false" dir="true">15400</position>
+
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="true" dir="true">15500</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="true" dir="true">16800</position>
+
+		<position tone="4" audio="2" curve=".2" rotation="0" side="true" dir="true">17000</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">17100</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">17600</position>
+		<position tone="3" audio="1" curve=".2" rotation="0" side="false" dir="true">17800</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="false" dir="true">17900</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="false" dir="true">18400</position>
+		<position tone="2" audio="0" curve=".2" rotation="0" side="false" dir="true">18600</position>
+
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="true" dir="true">18700</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="true" dir="true">20100</position>
+
+		<position tone="0" audio="0" curve=".2" rotation="60" side="true" dir="true" extend="100">20300</position>
+		<position tone="0" audio="0" curve=".2" rotation="-60" side="true" dir="true">20650</position>
+		<position tone="0" audio="0" curve=".2" rotation="60" side="false" dir="true">21000</position>
+		<position tone="0" audio="0" curve=".2" rotation="-60" side="true" dir="true">21400</position>
+
+		<position tone="1" audio="1" curve=".2" rotation="60" side="false" dir="true">21800</position>
+		<position tone="1" audio="1" curve=".2" rotation="-60" side="true" dir="true">22200</position>
+		<position tone="1" audio="1" curve=".2" rotation="60" side="false" dir="true">22600</position>
+		<position tone="1" audio="1" curve=".2" rotation="-60" side="true" dir="true">23000</position>
+
+		<position tone="2" audio="2" curve=".2" rotation="45" side="false" dir="true">23400</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="true" dir="true">23500</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="true" dir="true">24000</position>
+		<position tone="1" audio="1" curve=".2" rotation="0" side="true" dir="true">24200</position>
+		<position tone="-1" audio="-1" curve=".3" rotation="0" side="true" dir="true">24300</position>
+		<position tone="-1" audio="-1" curve=".1" rotation="0" side="true" dir="true">24800</position>
+		<position tone="0" audio="0" curve=".4" rotation="0" side="true" dir="true" extend="600" cameraY="100">25100</position>
+	</cuepoints>
+	
+	<particles enable="true" alpha="true" scale="true" total="20" wind="-1" speed="2" direction="true">
+		<item>assets/easter/particle.png</item>
+	</particles>
+</config>
