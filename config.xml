@@ -68,10 +68,10 @@ Mint opens: 3pm UTC (April 10 2024).
 		</item>
 		<item type="text" id="itemMessage" x="1010" y="6280" font="18px Fredoka One" lineHeight="0" color="#FFAD73" align="center">
 		<![CDATA[
-Twitter
+MINT
 ]]>
 		</item>
-		<item type="image" id="buttonCompany" x="1010" y="6280" link="https://twitter.com/missing_studios" linkType="link">assets/easter/button_blank.png</item>
+		<item type="image" id="buttonCompany" x="1010" y="6280" link="https://pepemigos.netlify.app" linkType="link">assets/easter/button_blank.png</item>
 		<item type="image" id="buttonReplay" x="1170" y="6280" link="replay" linkType="action">assets/easter/button_replay.png</item>
 	</objects>
 
